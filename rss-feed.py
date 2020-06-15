@@ -1,5 +1,5 @@
 def get_feed(request):
-    '''
+    """
     Simple cloud functions pass through proxy to allow CORS reqeust from localhost
     basic template taken from https://cloud.google.com/functions/docs/writing/http
     pass RSS URL in qury param ?url=rss feed url
@@ -8,7 +8,7 @@ def get_feed(request):
 
     https://github.com/amolredij/gcp-cloud-functions
 
-    '''
+    """
     # For more information about CORS and CORS preflight requests, see
     # https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request
     # for more information.
